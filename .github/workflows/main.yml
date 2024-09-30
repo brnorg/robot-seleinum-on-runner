@@ -1,0 +1,18 @@
+name: execute teste
+
+on:
+  workflow_dispatch:
+
+jobs:
+  testes:
+    runs-on: [self-hosted, brn]
+    container: 
+      image: selenium/standalone-chrome
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: pithon
+      - uses: actions/setup-python@v5
+        
+    
