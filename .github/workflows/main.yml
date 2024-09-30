@@ -5,7 +5,7 @@ on:
 
 jobs:
   testes:
-    runs-on: [self-hosted, brn]
+    runs-on: [self-hosted]
     container: 
       image: selenium/standalone-chrome
       volumes:
