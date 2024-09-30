@@ -8,6 +8,8 @@ jobs:
     runs-on: [self-hosted, brn]
     container: 
       image: selenium/standalone-chrome
+      volumes:
+        - var/run/docker:var/run/docker
     steps:
       - name: checkout
         uses: actions/checkout@v4
