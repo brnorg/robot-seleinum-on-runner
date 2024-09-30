@@ -12,7 +12,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: pithon
       - uses: actions/setup-python@v5
         
     
